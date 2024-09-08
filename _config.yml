@@ -16,7 +16,7 @@ timezone: America/Sao_Paulo
 
 title: Luana Cordeiro # the main title
 
-tagline: l4tr0dectus # it will display as the sub-title
+tagline: bl4ckw1d0w # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   Um lugar para trocar uma ideia.
@@ -26,7 +26,7 @@ description: >- # used by seo meta and the atom feed
 url: ""
 
 github:
-  username: l4tr0dectus # change to your github username
+  username: bl4ckw1d0w # change to your github username
 
 twitter:
   username: twitter_username # change to your twitter username
@@ -39,7 +39,7 @@ social:
   links:
     # The first element serves as the copyright owner's link
     # - https://twitter.com/username # change to your twitter homepage
-    - https://github.com/l4tr0dectus # change to your github homepage
+    - https://github.com/ # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
