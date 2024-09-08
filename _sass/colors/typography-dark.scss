@@ -2,21 +2,21 @@
  * The main dark mode styles
  */
 
-@mixin dark-scheme {
+ @mixin dark-scheme {
   /* Framework color */
-  --main-bg: rgb(27, 27, 30);
+  --main-bg: rgb(0, 0, 0);
   --mask-bg: rgb(68, 69, 70);
   --main-border-color: rgb(44, 45, 45);
 
   /* Common color */
   --text-color: rgb(175, 176, 177);
   --text-muted-color: #868686;
-  --text-muted-highlight-color: #aeaeae;
-  --heading-color: #cccccc;
+  --text-muted-hightlight-color: rgba(229, 25, 25, 0.995);
+  --heading-color: rgba(229, 25, 25, 0.995);
   --label-color: #a7a7a7;
   --blockquote-border-color: rgb(66, 66, 66);
   --blockquote-text-color: #868686;
-  --link-color: rgb(138, 180, 248);
+  --link-color: rgba(229, 25, 25, 0.995);
   --link-underline-color: rgb(82, 108, 150);
   --button-bg: #1e1e1e;
   --btn-border-color: #2e2f31;
@@ -37,20 +37,20 @@
   /* Sidebar */
   --site-title-color: #717070;
   --site-subtitle-color: #868686;
-  --sidebar-bg: #1e1e1e;
+  --sidebar-bg: #000000;
   --sidebar-border-color: #292929;
   --sidebar-muted-color: #868686;
-  --sidebar-active-color: rgb(255, 255, 255, 0.95);
+  --sidebar-active-color: rgba(229, 25, 25, 0.995);
   --sidebar-hover-bg: #262626;
   --sidebar-btn-bg: #232328;
   --sidebar-btn-color: #787878;
-  --avatar-border-color: rgb(206, 206, 206, 0.9);
+  --avatar-border-color: rgba(229, 25, 25, 0.995);
 
   /* Topbar */
-  --topbar-bg: rgb(27, 27, 30, 0.64);
+  --topbar-bg: rgba(0, 0, 0, 0.64);
   --topbar-text-color: var(--text-color);
-  --search-border-color: rgb(55, 55, 55);
-  --search-icon-color: rgb(100, 102, 105);
+  --search-border-color: rgba(229, 25, 25, 0.995);
+  --search-icon-color: rgba(229, 25, 25, 0.995);
   --input-focus-border-color: rgb(112, 114, 115);
 
   /* Home page */
@@ -84,29 +84,31 @@
   --prompt-danger-bg: rgb(86, 28, 8, 0.8);
   --prompt-danger-icon-color: #cd0202;
 
-  /* Tags */
+  /* tags */
   --tag-border: rgb(59, 79, 88);
   --tag-shadow: rgb(32, 33, 33);
   --dash-color: rgb(63, 65, 68);
   --search-tag-bg: #292828;
 
-  /* Categories */
+  /* categories */
   --categories-border: rgb(64, 66, 69, 0.5);
   --categories-hover-bg: rgb(73, 75, 76);
   --categories-icon-hover-color: white;
 
-  /* Archive */
+  /* archives */
   --timeline-node-bg: rgb(150, 152, 156);
   --timeline-color: rgb(63, 65, 68);
   --timeline-year-dot-color: var(--timeline-color);
-
-  color-scheme: dark;
 
   .light {
     display: none;
   }
 
-  /* Categories */
+  hr {
+    border-color: var(--main-border-color);
+  }
+
+  /* categories */
   .categories.card,
   .list-group-item {
     background-color: var(--card-bg);
@@ -139,6 +141,8 @@
       rgb(26, 26, 30)
     );
   }
+
+  color-scheme: dark;
 
   /* stylelint-disable-next-line selector-id-pattern */
   #disqus_thread {

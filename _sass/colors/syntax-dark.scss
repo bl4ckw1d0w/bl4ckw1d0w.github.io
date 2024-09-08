@@ -2,12 +2,12 @@
  * The syntax dark mode styles.
  */
 
-@mixin dark-syntax {
+ @mixin dark-syntax {
   --language-border-color: #2d2d2d;
   --highlight-bg-color: #151515;
   --highlighter-rouge-color: #c9def1;
   --highlight-lineno-color: #808080;
-  --inline-code-bg: rgba(255, 255, 255, 0.05);
+  --inline-code-bg: #323238;
   --code-color: #b0b0b0;
   --code-header-text-color: #6a6a6a;
   --code-header-muted-color: #353535;
