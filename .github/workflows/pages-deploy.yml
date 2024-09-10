@@ -59,7 +59,7 @@ jobs:
         run: npm i && npm run build
 
       - name: Test site
-        run: bash tools/test
+        run: bash tools/test.sh
 
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v1
