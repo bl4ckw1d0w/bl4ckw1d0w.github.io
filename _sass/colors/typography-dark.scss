@@ -130,7 +130,6 @@
       }
     }
   }
-
   #archives li:nth-child(odd) {
     background-image: linear-gradient(
       to left,
@@ -140,9 +139,12 @@
       rgb(39, 39, 45),
       rgb(26, 26, 30)
     );
+  
+    & {
+      color-scheme: dark;
+    }
   }
-
-  color-scheme: dark;
+  
 
   /* stylelint-disable-next-line selector-id-pattern */
   #disqus_thread {
