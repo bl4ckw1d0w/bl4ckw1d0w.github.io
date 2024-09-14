@@ -61,9 +61,9 @@ main() {
     -d "$SITE_DIR$_baseurl" -c "$_config"
 
   # test
-  bundle exec htmlproofer "$SITE_DIR" \
-    --disable-external=true \
-    --ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"
+ bundle exec htmlproofer "$SITE_DIR" \
+  --ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/,/^https:\/\/fonts.googleapis.com/,/^https:\/\/fonts.gstatic.com/,/^https:\/\/twitter.com\/twitter_username/,/^https:\/\/www.linkedin.com\/in\/black-widow/"
+
 }
 
 while (($#)); do
