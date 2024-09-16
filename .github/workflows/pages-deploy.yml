@@ -45,11 +45,6 @@ jobs:
           ruby-version: 3.2
           bundler-cache: true
 
-      - name: Build site
-        run: bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
-        env:
-          JEKYLL_ENV: "production"
-
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
@@ -57,6 +52,11 @@ jobs:
 
       - name: Build Assets
         run: npm i && npm run build
+
+      - name: Build site
+        run: bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
+        env:
+          JEKYLL_ENV: "production"
 
       - name: Test site
         run: bash tools/test.sh
