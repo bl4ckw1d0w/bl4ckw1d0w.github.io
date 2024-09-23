@@ -1,7 +1,8 @@
 ---
 layout: post
 title: WSL Backup
-categories: WSL
+categories: [Tutorial,Windows]
+tags: [WSL] 
 ---
 
 # WSL - Backup Passo a Passo

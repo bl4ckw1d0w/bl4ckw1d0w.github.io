@@ -29,4 +29,4 @@ Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para ma
 
 ## Contato
 
-Para mais informações, entre em contato pelo e-mail: seu-email@exemplo.com
+Para mais informações, entre em contato pelo e-mail: lua020294@gmail.com
