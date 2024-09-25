@@ -236,15 +236,13 @@ Caso não queira usar a linha de comando, pode usar ferramentas como Postman, In
 
 Daí deve aparecer exatamente assim no seu Elastic:
 
-![alt text](image.png)
+![alt text](/assets/img/posts/elastic-log.png)
 
 ## Dificuldades
 
 ### Permissões do Usuário Kibana
 
-Por várias vezes, o Kibana não estava pronto quando eu subia todos os containers. Isso foi por falta de permissões corretas. Se acontecer com você, aqui vão algumas dicas que podem ajudar, bem [aqui](https://
-
-github.com/bl4ckw1d0w/bwapi/tree/main#verifica%C3%A7%C3%A3o-de-permiss%C3%B5es-do-kibana).
+Por várias vezes, o Kibana não estava pronto quando eu subia todos os containers. Isso foi por falta de permissões corretas. Se acontecer com você, aqui vão algumas dicas que podem ajudar, bem [aqui](https://github.com/bl4ckw1d0w/bwapi/tree/main#verifica%C3%A7%C3%A3o-de-permiss%C3%B5es-do-kibana).
 
 ## Conclusão
 
