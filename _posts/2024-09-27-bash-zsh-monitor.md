@@ -91,7 +91,7 @@ autoload -Uz compinit && compinit  # Habilita auto-completar para comandos
 
 ```
 É aí que o meu script entra em cena!
-[Aqui está o repositório](https://github.com/bl4ckw1d0w/bwapi.git), onde você pode achar a documentação nescessária para a instalação.
+[Aqui está o repositório](https://github.com/bl4ckw1d0w/rc-file-tracker.git), onde você pode achar a documentação nescessária para a instalação.
 
 ## O que o script faz?
 
