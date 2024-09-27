@@ -93,21 +93,21 @@ autoload -Uz compinit && compinit  # Habilita auto-completar para comandos
 É aí que o meu script entra em cena!
 [Aqui está o repositório](https://github.com/bl4ckw1d0w/bwapi.git), onde você pode achar a documentação nescessária para a instalação.
 
-### O que o script faz?
+## O que o script faz?
 
 Basicamente, o script compara a versão atual do seu `.bashrc` ou `.zshrc` com uma cópia de backup que ele cria automaticamente. Se houver qualquer alteração, ele registra tudo em um arquivo de log. Assim, você pode ver facilmente o que mudou e, se precisar, reverter para a configuração anterior.
 
 E o melhor de tudo: você pode escolher onde salvar esse log! Se você é como eu e gosta de manter tudo organizado, isso faz uma grande diferença. Além disso, quando você executa o script, ele pergunta se você quer atualizar o backup com a versão atual. Genial, né?
 
 
-### Como isso ajuda?
+## Como isso ajuda?
 
 Imagine que você fez várias alterações e, de repente, algo começa a dar errado. Com esse script, você pode rapidamente identificar o que mudou e até reverter para a configuração anterior. Isso economiza um tempo precioso e evita frustrações.
 
 Além disso, é uma ótima maneira de documentar seu processo de personalização. Se você está sempre testando novas configurações, ter um histórico de mudanças pode ser super útil. E, claro, você pode compartilhar isso com amigos ou colegas que também ama personalizar seus terminais.
 
 
-### Ajuda a equipe de segurança ofensiva!
+## Ajuda a equipe de segurança ofensiva!
 
 Imagine só: você está lá, testando novas ferramentas e scripts, quando de repente percebe que algo não está certo. Com esse script, você consegue acompanhar todas as alterações feitas nas configurações do seu terminal, o que significa que, se alguém tentar fazer alguma mudança maliciosa, você vai perceber rapidinho.
 
@@ -118,6 +118,6 @@ O resto fica com a sua imaginação!
 
 > ⚠️ **NOTA:** Uso apenas para fins educacionais! 
 
-### Conclusão
+## Conclusão
 
 No final das contas, a ideia desse projeto é simples, mas pode fazer uma grande diferença na sua rotina. Agora você pode personalizar seu terminal à vontade, sabendo que sempre terá um jeito de acompanhar as mudanças.
