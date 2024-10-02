@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Monitorando Mudanças no Seu Bashrc/Zshrc: Um Amigo para Configurações de Shell"
+description: Descubra como monitorar e registrar mudanças nas configurações do seu terminal com um script prático, garantindo que suas personalizações sejam seguras e revertíveis.
 categories: [DevOps, Scripts]
 tags: [bash, zsh, personalização, linux, script, automação, pentest]
 ---
@@ -111,14 +112,18 @@ Além disso, é uma ótima maneira de documentar seu processo de personalizaçã
 
 Imagine só: você está lá, testando novas ferramentas e scripts, quando de repente percebe que algo não está certo. Com esse script, você consegue acompanhar todas as alterações feitas nas configurações do seu terminal, o que significa que, se alguém tentar fazer alguma mudança maliciosa, você vai perceber rapidinho.
 
-> ⚠️ Como todos nós sabemos, não é pra isso que vocês vão usar. Então irei reformular:
+> Como todos nós sabemos, não é pra isso que vocês vão usar. Então irei reformular:
+{: .prompt-alert }
 
 Com esse script, você pode acompanhar de perto todas as alterações feitas nos arquivos de configuração da máquina monitorada, garantindo que todas as modiificações passem por você. pode ser super útil para descobrir como explorar *o que for nescessário*.
 O resto fica com a sua imaginação! 
 
-> ⚠️ **NOTA:** Uso apenas para fins educacionais! 
+> NOTA: Uso apenas para fins educacionais! 
+{: .prompt-danger }
+
 
 ## Conclusão
 
 No final das contas, a ideia desse projeto é simples, mas pode fazer uma grande diferença na sua rotina. Agora você pode personalizar seu terminal à vontade, sabendo que sempre terá um jeito de acompanhar as mudanças.
-=======
+
+---

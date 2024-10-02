@@ -1,6 +1,7 @@
 ---
 layout: post
 title: API usando Kibanana como LOGGING
+description: Aprenda a integrar o Kibana em sua API Dockerizada para visualizar logs de maneira eficiente, permitindo que você monitore e analise o desempenho da sua aplicação com facilidade!
 categories: [Tutorial, API]
 tags: [kibana, elasticsearch, docker, golang, postgres]
 ---
@@ -9,8 +10,8 @@ tags: [kibana, elasticsearch, docker, golang, postgres]
 
 E aí, galera! Hoje vou compartilhar com vocês meu projeto de logging de API que usei em uma aplicação Dockerizada. O foco aqui é integrar tudo com o Kibana para ter uma visão clara do que tá rolando na minha API. Vamos nessa!
 
-> ⚠️ **Sobre como criar a API, o Docker e o PostgreSQL nos próximos posts. Esse é só um guia de como usar o Kibana para o logging da sua API.**  
-> ⚠️ **Usuários e senhas hardcoded. Meramente ilustrativas. NÃO FAÇAM ISSO EM CASA!**
+> Sobre como criar a API, o Docker e o PostgreSQL nos próximos posts. Esse é só um guia de como usar o Kibana para o logging da sua API.
+{: .prompt-warning }
 
 ## Por Que Usar Kibana?
 
@@ -151,7 +152,9 @@ db:
 
 ### Configurações do Elasticsearch e Kibana
 
-> ⚠️ **Usuários e senhas hardcoded. Meramente ilustrativas. NÃO FAÇAM ISSO EM CASA!**
+> Usuários e senhas hardcoded. Meramente ilustrativas. NÃO FAÇAM ISSO EM CASA!
+{: .prompt-warning }
+
 
 ```yaml
 elasticsearch:
@@ -217,7 +220,9 @@ Vamos de novo para a barra de pesquisa e escreva `Discover`. Isso vai te levar d
 
 ![alt text](/assets/img/posts/kibana-discover.png)
 
-⚠️ **AMIGX:** Pra que haja logs, é preciso movimentação. Então preparei um comando simples com a ferramenta `curl` pra facilitar a criação de usuários:
+> AMIGX: Pra que haja logs, é preciso movimentação. Então preparei um comando simples com a ferramenta `curl` pra facilitar a criação de usuários:
+{: .prompt-info }
+
 
 ```bash
 curl -X POST http://localhost:8080/create-user \

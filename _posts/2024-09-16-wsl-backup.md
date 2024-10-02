@@ -1,6 +1,7 @@
 ---
 layout: post
 title: WSL Backup
+description: Descubra como fazer backups eficazes no WSL com métodos simples e práticos, garantindo a segurança dos seus projetos e facilitando a recuperação de dados em qualquer situação.
 categories: [Tutorial,Windows]
 tags: [WSL] 
 ---
@@ -15,7 +16,8 @@ Fazer backup no WSL pode ser uma tarefa fácil e até divertida! Vamos explorar 
 
 2. Copie a pasta para o D2
 
-> ⚠️ Mas sério, isso não é muito produtivo.
+> Mas sério, isso não é muito produtivo.
+{: .prompt-info }
 
 *Lembrando, pessoal, hoje temos o Git, GitHub, GitLab, Bitbucket e mais! Use o Git para controlar versões e fazer backup dos seus projetos. É fácil, é moderno, é o futuro.*
 
@@ -55,7 +57,8 @@ Fazer backup no WSL pode ser uma tarefa fácil e até divertida! Vamos explorar 
 5. Sobrescreva o VHDX no caminho:
     - `C:\Users\SEUUSUARIO\AppData\Local\Packages\PACKAGE DA SUA DISTRIBUIÇÃO\LocalState`.
 
-> ⚠️ **Não tente sobrescrever direto da pasta da nuvem**. Baixe ele no seu computador. **Sério, eu tentei**. Não dá certo😅.
+> **Não tente sobrescrever direto da pasta da nuvem**. Baixe ele no seu computador. **Sério, eu tentei**. Não dá certo😅.
+{: .prompt-info }
 
 6. Abra o WSL novamente. Tudo pronto!
 
