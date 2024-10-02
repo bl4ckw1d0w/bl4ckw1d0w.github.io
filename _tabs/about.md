@@ -3,25 +3,30 @@
 icon: fas fa-info-circle
 order: 4
 ---
-# Bem-vindo ao meu blog de tecnologia!
 
-Olá! Meu nome é Luana Cordeiro, também conhecida como BlackWidow no mundo da tecnologia. Sou uma desenvolvedora apaixonada por códigos e música. Aqui, combinei minha paixão por segurança cibernética com desenvolvimento de softwares. Quando não estou imersa em linhas de código, estou mergulhando na melodia da música ou explorando mundos fascinantes em animes e séries de ficção científica.
+## Sobre
 
-## Sobre mim
+**Bem-vindo ao meu blog de tecnologia!**
 
-Além de ser uma desenvolvedora, sou uma jogadora ávida, amando desafios tanto na vida real quanto no mundo virtual. Com certificações em segurança cibernética, competências em diversas linguagens e ferramentas, estou pronta para enfrentar qualquer desafio com uma trilha sonora empolgante e um toque geek.
+Oi, eu sou Luana Cordeiro, mas você pode me chamar de BlackWidow! Sou uma desenvolvedora apaixonada por códigos e música. Neste espaço, combinei minha paixão por segurança cibernética e desenvolvimento de software. Quando não estou imersa em linhas de código, estou dançando ao som das minhas músicas favoritas ou viajando por mundos incríveis em animes e séries de ficção científica.
 
-## Sobre este blog
+### Sobre Mim
 
-Espero que você encontre algo de valor aqui e estou ansiosa para compartilhar minha jornada com você!
+Além de ser uma desenvolvedora, sou uma jogadora ávida! Adoro desafios, tanto na vida real quanto nos universos dos jogos. Com certificações em segurança cibernética e uma bagagem diversificada em linguagens e ferramentas, estou sempre pronta para enfrentar qualquer obstáculo, acompanhada de uma trilha sonora empolgante e um toque geek!
 
-## Competências
+### Sobre Este Blog
 
-- Cybersecurity Analisty
-- Linux 
+Aqui, você vai encontrar um pouquinho de tudo! ✨ Este blog é o meu espaço para compartilhar conhecimentos, dicas e truques sobre tecnologia que podem facilitar sua vida. 
+
+### Competências
+
+- Cybersecurity Analyst
+- Linux
 - Golang
 - AWS
-- Desenvolvimento de software
+- Desenvolvimento de Software
 - Autodidatismo
 
-Sinta-se à vontade para entrar em contato comigo através do LinkedIn. Estou ansiosa para conectar-me com outros entusiastas da tecnologia!
+Fique à vontade para me contatar através do LinkedIn. Estou super animada para conectar com outros apaixonados por tecnologia!
+
+---

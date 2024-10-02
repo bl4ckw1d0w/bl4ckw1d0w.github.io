@@ -121,3 +121,4 @@ O resto fica com a sua imaginação!
 ## Conclusão
 
 No final das contas, a ideia desse projeto é simples, mas pode fazer uma grande diferença na sua rotina. Agora você pode personalizar seu terminal à vontade, sabendo que sempre terá um jeito de acompanhar as mudanças.
+=======
