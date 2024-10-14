@@ -24,7 +24,7 @@ description: >- # used by seo meta and the atom feed
 feedburner: https://feeds.feedburner.com/blackwidow/feed
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "blackwidow.com.br"
+url: "https://blackwidow.com.br"
 
 github:
   username: bl4ckw1d0w # change to your github username
