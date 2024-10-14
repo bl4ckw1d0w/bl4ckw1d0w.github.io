@@ -24,15 +24,17 @@ layout: compress
     <div id="main-wrapper" class="d-flex justify-content-center">
       <div class="container d-flex flex-column px-xxl-5">
         {% include topbar.html lang=lang %}
-
+        
         <div class="newsletter-signup">
-          <form action="https://feedburner.google.com/fb/a/mailverify" method="post" target="_blank">
-            <input type="hidden" name="b" value="blackwidow/feed" />
-            <label for="email">Arraste pra cima para atualizar-se-se:</label>
-            <input type="email" name="email" id="email" required placeholder="Seu email" />
-            <input type="submit" value="Inscrever-se" />
+          <form action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=blackwidow/feed', 'popupwindow', 'scrollbars=yes,width=550,height=520'); return true">
+              <input type="hidden" value="blackwidow/feed" name="uri"/>
+              <input type="hidden" name="loc" value="en_US"/>
+              <label for="email">Arraste pra cima para atualizar-se-se:</label>
+              <input type="email" name="email" id="email" required placeholder="Seu email" />
+              <input type="submit" value="Inscrever-se" />
           </form>
-        </div>  
+      </div>
+       
     
         <div class="row flex-grow-1">
           <main aria-label="Main Content" class="col-12 col-lg-11 col-xl-9 px-md-4">
