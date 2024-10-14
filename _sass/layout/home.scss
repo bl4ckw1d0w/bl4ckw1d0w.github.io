@@ -187,3 +187,60 @@
     }
   } /* .pagination */
 }
+/* Estilo do contêiner */
+
+/* Estilo do bloco da newsletter */
+.newsletter-signup {
+  background-color: #333; /* Fundo escuro */
+  color: #fff; /* Texto branco */
+  border-radius: 5px; /* Cantos arredondados */
+  padding: 20px; /* Espaçamento interno */
+  margin: 20px; /* Margem em torno do formulário */
+  text-align: left; /* Centralizar o texto */
+  width: 67%; /* Largura do campo do bloco */
+
+ 
+}
+
+/* Estilo do texto da newsletter */
+.newsletter-signup p {
+  font-size: 18px; /* Tamanho da fonte do texto */
+  margin-bottom: 15px; /* Margem inferior */
+  grid-column: 1 / -1; /* Faz o bloco ocupar todas as colunas */
+
+}
+
+/* Estilo do rótulo */
+.newsletter-signup label {
+  display: block; /* Torna o rótulo um bloco */
+  margin-bottom: 5px; /* Margem inferior */
+  height: 20px;
+  width: 500px;
+}
+
+/* Estilo do campo de email */
+.newsletter-signup input[type="email"] {
+  width: calc(100% - 22px); /* Largura do campo de email */
+  padding: 10px; /* Preenchimento interno */
+  margin-bottom: 10px; /* Margem inferior */
+  border: 1px solid #ccc; /* Borda do campo */
+  border-radius: 4px; /* Cantos arredondados */
+  background-color: #444; /* Cor de fundo do campo */
+  color: #fff; /* Texto branco */
+}
+
+/* Estilo do botão de envio */
+.newsletter-signup input[type="submit"] {
+  background-color: #ac4142; /* Cor de fundo do botão */
+  color: white; /* Cor do texto do botão */
+  border: none; /* Sem borda */
+  padding: 10px 15px; /* Preenchimento interno */
+  border-radius: 4px; /* Cantos arredondados */
+  cursor: pointer; /* Cursor em forma de mão */
+  transition: background-color 0.3s; /* Transição suave para a cor do fundo */
+}
+
+/* Efeito de hover no botão */
+.newsletter-signup input[type="submit"]:hover {
+  background-color: #f08a8b; /* Cor do botão ao passar o mouse */
+}
