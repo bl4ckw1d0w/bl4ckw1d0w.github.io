@@ -26,8 +26,8 @@ layout: compress
         {% include topbar.html lang=lang %}
 
         <div class="newsletter-signup">
-          <form action="https://feedburner.google.com/fb/a/mailverify" method="post" target="_blank">
-            <input type="hidden" name="b" value="blackwidow/feed" />
+          <form action="https://feedburner.google.com/fb/a/mailverify" method="post">
+            <input type="hidden" name="uri" value="blackwidow/feed" />
             <label for="email">Arraste pra cima para atualizar-se-se:</label>
             <input type="email" name="email" id="email" required placeholder="Seu email" />
             <input type="submit" value="Inscrever-se" />
