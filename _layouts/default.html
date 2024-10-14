@@ -26,13 +26,13 @@ layout: compress
       <div class="container d-flex flex-column px-xxl-5">
         {% include topbar.html lang=lang %}
         
-          <div class="newsletter-signup">
-            <form action="https://feedburner.google.com/fb/a/mailverify" method="get" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=blackwidow/blmb53rkvyu', 'popupwindow', 'scrollbars=yes,width=550,height=520'); return true;">
-              <input type="hidden" value="blackwidow_bLmB53RKVYu" name="uri"/>
+        <div class="newsletter-signup">
+          <form action="https://feedburner.google.com/fb/a/mailverify" method="get" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=blackwidow/blmb53rkvyu', 'popupwindow', 'scrollbars=yes,width=550,height=520'); return false;">
+              <input type="hidden" value="blackwidow/blmb53rkvyu" name="uri"/>
               <input type="submit" value="Inscrever-se" />
-            </form>
-          </div>
-
+          </form>
+      </div>
+      
         <div class="row flex-grow-1">
           <main aria-label="Main Content" class="col-12 col-lg-11 col-xl-9 px-md-4">
             {% if layout.refactor or layout.layout == 'default' %}
