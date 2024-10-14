@@ -15,6 +15,7 @@ layout: compress
 <!-- `site.alt_lang` can specify a language different from the UI -->
 <html lang="{{ page.lang | default: site.alt_lang | default: site.lang }}" {{ prefer_mode }}>
   {% include head.html %}
+  <link rel="alternate" type="application/rss+xml" title="Feed do Blog" href="https://feeds.feedburner.com/blackwidow/feed" />
 
   <body>
     {% include sidebar.html lang=lang %}
