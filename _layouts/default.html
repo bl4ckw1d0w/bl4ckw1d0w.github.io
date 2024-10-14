@@ -18,12 +18,22 @@ layout: compress
   <link rel="alternate" type="application/rss+xml" title="Feed do Blog" href="https://feeds.feedburner.com/blackwidow/feed" />
 
   <body>
+    
     {% include sidebar.html lang=lang %}
 
     <div id="main-wrapper" class="d-flex justify-content-center">
       <div class="container d-flex flex-column px-xxl-5">
         {% include topbar.html lang=lang %}
 
+        <div class="newsletter-signup">
+          <form action="https://feedburner.google.com/fb/a/mailverify" method="post" target="_blank">
+            <input type="hidden" name="b" value="blackwidow/feed" />
+            <label for="email">Arraste pra cima para atualizar-se-se:</label>
+            <input type="email" name="email" id="email" required placeholder="Seu email" />
+            <input type="submit" value="Inscrever-se" />
+          </form>
+        </div>  
+    
         <div class="row flex-grow-1">
           <main aria-label="Main Content" class="col-12 col-lg-11 col-xl-9 px-md-4">
             {% if layout.refactor or layout.layout == 'default' %}
@@ -46,6 +56,7 @@ layout: compress
             {% endfor %}
           </aside>
         </div>
+         
 
         <div class="row">
           <!-- tail -->
@@ -68,7 +79,7 @@ layout: compress
         </button>
       </aside>
     </div>
-
+   
     <div id="mask"></div>
 
     {% if site.pwa.enabled %}
