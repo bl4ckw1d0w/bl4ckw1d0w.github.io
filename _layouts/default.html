@@ -15,24 +15,21 @@ layout: compress
 <!-- `site.alt_lang` can specify a language different from the UI -->
 <html lang="{{ page.lang | default: site.alt_lang | default: site.lang }}" {{ prefer_mode }}>
   {% include head.html %}
-  
-  <link rel="alternate" type="application/rss+xml" title="Feed do Blog" href="https://feeds.feedburner.com/blackwidow/lji1bpib0lw" />
-
+    <div class="form-block">
+    <div class="center-form">
+      <p>Inscreva-se para receber atualizações!</p>
+      <script async data-uid="d4f64c6664" src="https://luana-cordeiro.ck.page/d4f64c6664/index.js"></script>
+    </div>
+  </div>
   <body>
     
+      
     {% include sidebar.html lang=lang %}
-
+    
     <div id="main-wrapper" class="d-flex justify-content-center">
       <div class="container d-flex flex-column px-xxl-5">
         {% include topbar.html lang=lang %}
-        
-        <div class="newsletter-signup">
-          <form action="https://feedburner.google.com/fb/a/mailverify" method="get" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=blackwidow/lji1bpib0lw', 'popupwindow', 'scrollbars=yes,width=550,height=520'); return false;">
-              <input type="hidden" value="lji1bpib0lw" name="uri"/>
-              <input type="submit" value="Inscrever-se" />
-          </form>
-      </div>
-      
+
         <div class="row flex-grow-1">
           <main aria-label="Main Content" class="col-12 col-lg-11 col-xl-9 px-md-4">
             {% if layout.refactor or layout.layout == 'default' %}
@@ -43,6 +40,7 @@ layout: compress
           </main>
 
           <!-- panel -->
+          
           <aside aria-label="Panel" id="panel-wrapper" class="col-xl-3 ps-2 mb-5 text-muted">
             <div class="access">
               {% include_cached update-list.html lang=lang %}
