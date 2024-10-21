@@ -65,6 +65,9 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           path: "_site${{ steps.pages.outputs.base_path }}"
+      
+      - name: List files
+        run: ls -R _site
 
   deploy:
     environment:
