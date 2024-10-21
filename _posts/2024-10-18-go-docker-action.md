@@ -3,7 +3,7 @@ layout: post
 title: "CI/CD com GitHub Actions para Projetos em Go: Do Código ao Deploy"
 description: "Aprenda a configurar pipelines de CI/CD para projetos em Go usando GitHub Actions, com integração de Docker, testes automatizados e deploy."
 categories: [DevOps, GitHub]
-tags: [ci/cd, github actions, golang, docker, devops]
+tags: [pipeline, actions, golang, docker, devops]
 ---
 
 Você já cansou de ficar rodando comandos manualmente toda vez que quer testar ou fazer deploy de uma aplicação? Eu também! É por isso que vou te mostrar como configurar uma pipeline de CI/CD usando **GitHub Actions** para nossos projetos em **Go**. E o melhor: vamos integrar com **Docker**, rodar **testes automatizados** e, claro, fazer o deploy como chefes. 🍕🤖
