@@ -3,7 +3,7 @@ layout: post
 title: "GitHub CLI: O Superpoder que Você Não Sabia Que Precisava!"
 description: Descubra como o GitHub CLI pode revolucionar seu fluxo de trabalho, permitindo interações rápidas e seguras com seus repositórios direto do terminal!
 categories: [DevOps, GitHub]
-tags: [cli, automação, terminal, workflow, produtividade]
+tags: [cli, automacao, terminal, workflow, produtividade]
 ---
 
 🚀 Eu estava fuçando na internet e lembrei de uma ferramenta que eu usei uma vez na vida e nunca mais. Resolvi mostrar ela pra vocês aqui. Você já ficou cansado de ir no navegador toda vez que precisa fazer alguma coisa no GitHub, parabéns! **Seus problemas acabaram**. Chegou o GitHub CLI, um jeito esperto (e estiloso!) de interagir com seus repositórios sem sair do terminal.
