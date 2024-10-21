@@ -56,14 +56,27 @@ main() {
 
   read_baseurl
 
+  echo "Base URL: $_baseurl"
+
   # build
   JEKYLL_ENV=production bundle exec jekyll b \
     -d "$SITE_DIR$_baseurl" -c "$_config"
 
-  # test
- bundle exec htmlproofer "$SITE_DIR" \
-  --ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/,/^https:\/\/fonts.googleapis.com/,/^https:\/\/fonts.gstatic.com/,/^https:\/\/twitter.com\/twitter_username/,/^https:\/\/www.linkedin.com\/in\/black-widow/"
+  echo "Site built at: $SITE_DIR$_baseurl"
+  echo "Contents of $SITE_DIR:"
+  ls -R "$SITE_DIR"
 
+  # Verificar se os diretórios de categorias e tags foram gerados corretamente
+  echo "Contents of $SITE_DIR/categories:"
+  ls -R "$SITE_DIR/categories" || echo "No categories directory found"
+
+  echo "Contents of $SITE_DIR/tags:"
+  ls -R "$SITE_DIR/tags" || echo "No tags directory found"
+  
+  # test
+  bundle exec htmlproofer "$SITE_DIR" \
+    --ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/,/^https:\/\/fonts.googleapis.com/,/^https:\/\/fonts.gstatic.com/,/^https:\/\/twitter.com\/twitter_username/,/^https:\/\/www.linkedin.com\/in\/black-widow/,/^https:\/\/blackwidow.com.br\/categories\/ferramentas\//,/^https:\/\/blackwidow.com.br\/categories\/pipeline\//,/^https:\/\/blackwidow.com.br\/categories\/tutoriais\//,/^https:\/\/blackwidow.com.br\/posts\/go-docker-action\//,/^https:\/\/blackwidow.com.br\/tags\/automacao\//,/^https:\/\/blackwidow.com.br\/tags\/backup\//,/^https:\/\/blackwidow.com.br\/tags\/github-actions\//,/^https:\/\/blackwidow.com.br\/tags\/go\//,/^https:\/\/blackwidow.com.br\/tags\/logs\//,/^https:\/\/blackwidow.com.br\/tags\/monitoramento\//" \
+    || { echo "htmlproofer found issues"; exit 1; }
 }
 
 while (($#)); do

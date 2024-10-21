@@ -15,14 +15,9 @@ timezone: America/Sao_Paulo
 # ↓ --------------------------
 
 title: Luana Cordeiro # the main title
-
-tagline: bl4ckw1d0w # it will display as the sub-title
-
+tagline:   Um lugar para trocar uma ideia. # it will display as the sub-title
 description: >- # used by seo meta and the atom feed
   Um lugar para trocar uma ideia.
-
-# Fill in the protocol & hostname for your site.
-# e.g. 'https://username.github.io', note that it does not end with a '/'.
 url: "https://blackwidow.com.br"
   
 github:
@@ -81,20 +76,20 @@ toc: true
 
 comments:
   active: true
-  staticman:
-    endpoint: https://<your-staticman-instance>.herokuapp.com/v3/entry/github
-    branch: master
-    repository: <your-github-username>/<your-repo-name>
-    path: _data/comments
-    filename: comment-<id>.json
-    format: json
-    moderation: true
-    required_fields:
-      - name
-      - email
-      - message
-    optional_fields:
-      - website
+#  staticman:
+#    endpoint: https://<your-staticman-instance>.herokuapp.com/v3/entry/github
+#    branch: master
+#    repository: <your-github-username>/<your-repo-name>
+#    path: _data/comments
+#    filename: comment-<id>.json
+#    format: json
+#    moderation: true
+#    required_fields:
+#      - name
+#      - email
+#      - message
+#    optional_fields:
+#      - website
       
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
 assets:

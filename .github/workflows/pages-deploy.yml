@@ -58,6 +58,12 @@ jobs:
         env:
           JEKYLL_ENV: "production"
 
+      - name: Check Tags and Categories
+        run: |
+          echo "Checking tags and categories..."
+          ls -R _site/tags
+          ls -R _site/categories
+          
       - name: Test site
         run: bash tools/test.sh
 
@@ -66,14 +72,7 @@ jobs:
         with:
           path: "_site${{ steps.pages.outputs.base_path }}"
        
-      - name: List files
-        run: ls -R _site
-
-      - name: Check Tags and Categories
-        run: |
-          echo "Checking tags and categories..."
-          ls -R _site/tags
-          ls -R _site/categories
+   
 
   deploy:
     environment:
