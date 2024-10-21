@@ -2,8 +2,8 @@
 layout: post
 title: API usando Kibanana como LOGGING
 description: Aprenda a integrar o Kibana em sua API Dockerizada para visualizar logs de maneira eficiente, permitindo que você monitore e analise o desempenho da sua aplicação com facilidade!
-categories: [Tutorial, API]
-tags: [kibana, elasticsearch, docker, golang, postgres]
+categories: [Tutoriais, API]
+tags: [kibana, docker, go, logs]
 ---
 
 # Logging de API com Kibana: Um Projeto Simples e Prático

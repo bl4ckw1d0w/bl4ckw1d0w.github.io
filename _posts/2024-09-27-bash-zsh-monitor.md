@@ -2,8 +2,8 @@
 layout: post
 title: "Monitorando Mudanças no Seu Bashrc/Zshrc: Um Amigo para Configurações de Shell"
 description: Descubra como monitorar e registrar mudanças nas configurações do seu terminal com um script prático, garantindo que suas personalizações sejam seguras e revertíveis.
-categories: [DevOps, Scripts]
-tags: [bash, zsh, personalização, linux, script, automação, pentest]
+categories: [Scripts, DevOps]
+tags: [bash, zsh, linux, script, monitoramento]
 ---
 
 ## Monitorando Mudanças no Seu Bashrc/Zshrc: Um Amigo para Configurações de Shell

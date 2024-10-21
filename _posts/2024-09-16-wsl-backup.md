@@ -2,8 +2,8 @@
 layout: post
 title: WSL Backup
 description: Descubra como fazer backups eficazes no WSL com métodos simples e práticos, garantindo a segurança dos seus projetos e facilitando a recuperação de dados em qualquer situação.
-categories: [Tutorial,Windows]
-tags: [WSL] 
+categories: [Tutoriais]
+tags: [WSL, backup] 
 ---
 
 # WSL - Backup Passo a Passo

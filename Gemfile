@@ -2,6 +2,7 @@
 
 # Define o repositório de gems
 source "https://rubygems.org"
+gem 'jekyll-sitemap'
 
 # Carrega a especificação do gemspec
 gemspec
