@@ -142,7 +142,7 @@ func TestSetupWSL(t *testing.T) {
 - Se o número de comandos for diferente, o teste falha.
 Claro! Vamos separar a parte 3 do processo, que é **"Rodando os Testes"**, em detalhes para você entender melhor o que fazer:
 
-### 3. **Rodando os Testes**
+### 8. **Rodando os Testes**
 
 Agora que você escreveu os testes, o próximo passo é rodá-los para verificar se tudo está funcionando corretamente. Para rodar seus testes em Go, você vai usar o comando `go test`.
 
@@ -212,8 +212,8 @@ ok      github.com/bl4ckw1d0w/dev-starter/config        (cached)
      ```bash
      go test -cover
      ```
-     
-> Pode dar uma olhada na minha PR https://github.com/bl4ckw1d0w/dev-starter/pull/25 para dar uma olhada no codigo de teste e o de origem. 
+
+> Pode dar uma olhada na minha PR no [repositório no GitHub](https://github.com/bl4ckw1d0w/dev-starter/pull/25) para dar uma olhada no codigo de teste e o de origem. 
  {: .prompt-info }
 
 
