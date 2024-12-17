@@ -74,9 +74,9 @@ main() {
   ls -R "$SITE_DIR/tags" || echo "No tags directory found"
   
   # test
-  bundle exec htmlproofer "$SITE_DIR" \
-    --ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/,/^https:\/\/fonts.googleapis.com/,/^https:\/\/fonts.gstatic.com/,/^https:\/\/twitter.com\/twitter_username/,/^https:\/\/www.linkedin.com\/in\/black-widow/,/^https:\/\/blackwidow.com.br\/categories\/ferramentas\//,/^https:\/\/blackwidow.com.br\/categories\/pipeline\//,/^https:\/\/blackwidow.com.br\/categories\/tutoriais\//,/^https:\/\/blackwidow.com.br\/posts\/go-docker-action\//,/^https:\/\/blackwidow.com.br\/tags\/automacao\//,/^https:\/\/blackwidow.com.br\/tags\/backup\//,/^https:\/\/blackwidow.com.br\/tags\/github-actions\//,/^https:\/\/blackwidow.com.br\/tags\/go\//,/^https:\/\/blackwidow.com.br\/tags\/logs\//,/^https:\/\/blackwidow.com.br\/tags\/monitoramento\//,/^https:\/\/blackwidow.com.br\/categories\/eventos\//,/^https:\/\/blackwidow.com.br\/categories\/seguran%C3%A7a\//,/^https:\/\/blackwidow.com.br\/posts\/nullbyte-10anos\//,/^https:\/\/blackwidow.com.br\/tags\/nullbyte\//" \
-    || { echo "htmlproofer found issues"; exit 1; }
+ bundle exec htmlproofer "$SITE_DIR" \
+  --ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/,/^https:\/\/fonts.googleapis.com/,/^https:\/\/fonts.gstatic.com/,/^https:\/\/twitter.com\/twitter_username/,/^https:\/\/www.linkedin.com\/in\/black-widow/,/^https:\/\/blackwidow.com.br\/categories\/ferramentas\//,/^https:\/\/blackwidow.com.br\/categories\/pipeline\//,/^https:\/\/blackwidow.com.br\/categories\/tutoriais\//,/^https:\/\/blackwidow.com.br\/posts\/go-docker-action\//,/^https:\/\/blackwidow.com.br\/tags\/automacao\//,/^https:\/\/blackwidow.com.br\/tags\/backup\//,/^https:\/\/blackwidow.com.br\/tags\/github-actions\//,/^https:\/\/blackwidow.com.br\/tags\/go\//,/^https:\/\/blackwidow.com.br\/tags\/logs\//,/^https:\/\/blackwidow.com.br\/tags\/monitoramento\//,/^https:\/\/blackwidow.com.br\/categories\/eventos\//,/^https:\/\/blackwidow.com.br\/categories\/seguran%C3%A7a\//,/^https:\/\/blackwidow.com.br\/posts\/nullbyte-10anos\//,/^https:\/\/blackwidow.com.br\/tags\/nullbyte\//,/^https:\/\/blackwidow.com.br\/categories\/desenvolvimento\//,/^https:\/\/blackwidow.com.br\/categories\/golang\//,/^https:\/\/blackwidow.com.br\/tags\/testes\//" \
+  || { echo "htmlproofer found issues"; exit 1; }
 }
 
 while (($#)); do
